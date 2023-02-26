@@ -38,7 +38,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 
-    implementation 'com.pixandroid.utilbox:1.0'
+    implementation 'com.pixandroid.utilbox:utilbox:1.0'
 
 
 }

@@ -32,7 +32,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.pixandroid'
+                groupId = 'com.pixandroid.utilbox'
                 artifactId = 'utilbox'
                 version = '1.0'
             }
