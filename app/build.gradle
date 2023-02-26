@@ -44,4 +44,8 @@ dependencies {
     //Git
 //    implementation 'com.github.pixAndroid:utilbox:1.0'
 
+    implementation 'com.github.pixAndroid:AnimationX:1.4'
+
+    implementation 'com.github.pixAndroid:UtilBox:1.4'
+
 }
