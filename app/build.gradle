@@ -42,6 +42,6 @@ dependencies {
     //implementation 'com.pixandroid.utilbox:utilbox:1.0'
 
     //Git
-    implementation 'com.github.pixAndroid:utilbox:1.0'
+//    implementation 'com.github.pixAndroid:utilbox:1.0'
 
 }
