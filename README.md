@@ -7,10 +7,9 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 ### build.gradle project level
 ```bash
 	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	     repositories {
+		maven { url 'https://jitpack.io' }
+	     }
 	}
 ```
 
