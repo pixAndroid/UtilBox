@@ -4,16 +4,18 @@
 distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 
 
-
+# build.gradle project level
 ```bash
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-	
-	dependencies {
-	    implementation 'com.github.pixAndroid:UtilBox:Tag'
-	}
-	```
+```
+
+
+# Add the dependency in build.gradle module level
+```bash
+	implementation 'com.github.pixAndroid:UtilBox:1.4'
+```
