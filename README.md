@@ -1,10 +1,10 @@
 # UtilBox [![](https://jitpack.io/v/pixAndroid/utilbox.svg)](https://jitpack.io/#pixAndroid/utilbox)
 
-### Project Requirements
+## Project Requirements
 distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 
 
-# build.gradle project level
+### build.gradle project level
 ```bash
 	allprojects {
 		repositories {
@@ -15,7 +15,7 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 ```
 
 
-# Add the dependency in build.gradle module level
+### Add the dependency in build.gradle module level
 ```bash
 	implementation 'com.github.pixAndroid:UtilBox:1.4'
 ```
