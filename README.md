@@ -1,4 +1,5 @@
-# UtilBox [![](https://jitpack.io/v/pixAndroid/utilbox.svg)](https://jitpack.io/#pixAndroid/utilbox)
+# UtilBox [![](https://jitpack.io/v/pixAndroid/UtilBox.svg)](https://jitpack.io/#pixAndroid/UtilBox)
+
 
 ## Project Requirements
 distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
