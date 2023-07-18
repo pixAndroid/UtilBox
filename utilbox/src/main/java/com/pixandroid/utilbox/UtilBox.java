@@ -72,6 +72,9 @@ import java.util.Locale;
 public class UtilBox {
 
     public static void vibrate(Context context) {
+        //ADD VIBRATE PERMISSION IN YOUR MANIFEST
+        //<uses-permission android:name="android.permission.VIBRATE" />
+
         long ms = 32L;
         Vibrator v = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
         // Vibrate for 500 milliseconds
@@ -281,6 +284,24 @@ public class UtilBox {
 
     //TODO 02 - TimeX
     public static class TimeUtil {
+
+        public static String greeting() {
+            Calendar c = Calendar.getInstance();
+            int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
+
+            String greeting = "";
+            if(timeOfDay >= 0 && timeOfDay < 12){
+                greeting = "Good Morning";
+            }else if(timeOfDay >= 12 && timeOfDay < 16){
+                greeting  = "Good Afternoon";
+            }else if(timeOfDay >= 16 && timeOfDay < 21){
+                greeting = "Good Evening";
+            }else if(timeOfDay >= 21 && timeOfDay < 24){
+                greeting = "Good Night";
+            }
+
+            return greeting;
+        }
 
         public static String addMinutes(String date_time, int minutesToAdd) {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -757,6 +778,7 @@ public class UtilBox {
                     yi += w;
                 }
             }
+
 
             Log.e("pix", w + " " + h + " " + pix.length);
             bitmap.setPixels(pix, 0, w, 0, 0, w, h);
