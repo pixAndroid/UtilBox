@@ -17,5 +17,5 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 
 ### Add the dependency in build.gradle module level
 ```bash
-	implementation 'com.github.pixAndroid:UtilBox:1.5'
+	implementation 'com.github.pixAndroid:UtilBox:1.7'
 ```
